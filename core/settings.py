@@ -36,14 +36,14 @@ BASE_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles'
+    'django.contrib.staticfiles',
 ]
 
 THIRD_PART_APPS = [
     'rest_framework',
 ]
 
-LOCAL_APPS = []
+LOCAL_APPS = ['app1',]
 
 
 INSTALLED_APPS = BASE_APPS + THIRD_PART_APPS + LOCAL_APPS
