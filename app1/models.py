@@ -15,5 +15,3 @@ class TestingModel(models.Model):
         null=True,
     )
     is_active = models.BooleanField(default=True, null=False, blank=False)
-    updated_at = models.DateTimeField(auto_now=True, verbose_name="updated at")
-    created_at = models.DateTimeField(auto_now_add=True, verbose_name="created at")

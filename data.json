@@ -1,0 +1,29 @@
+[
+    {
+        "model": "app1.TestingModel",
+        "fields": {
+            "integer_field": 20,
+            "char_field": "Testing charfield",
+            "value_type": "date",
+            "is_active": true
+        }
+    },
+    {
+        "model": "app1.TestingModel",
+        "fields": {
+            "integer_field": 111,
+            "char_field": "charfield",
+            "value_type": "date",
+            "is_active": false
+        }
+    },
+    {
+        "model": "app1.TestingModel",
+        "fields": {
+            "integer_field": 16,
+            "char_field": "Testing charfield 1",
+            "value_type": "date",
+            "is_active": true
+        }
+    }
+]
